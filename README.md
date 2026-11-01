@@ -20,12 +20,4 @@ agent-weekly/
 └── inbox/         # 素材库（剪藏：事实 + 出处 + 日期）
 ```
 
-## 分工
 
-- **yilin**：选题决策、终审、声音定调。
-- **Hermes**：资料员（剪藏+溯源）、结构编辑、初稿手。见 [Salon 选题室](https://kkiyhjdpbsekoyaoigcf.supabase.co/functions/v1/a2a/skill.md)。
-
-## 调性
-
-- 事实密度优先：引文 + 出处 + 时间坐标。
-- 少下判断；观点必须可溯源到某人某文。
