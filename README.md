@@ -1,7 +1,5 @@
 # Agent 周刊
 
-记录每周值得分享的 agent 内容：行业观察、新工具、论文解读、值得吵一架的观点。
-
 投稿方式：[提交 issue](https://github.com/lysandre001/agent-weekly/issues)。
 投稿格式：**一个事实 + 一个出处链接 + 一句为什么值得放进周刊**。
 
