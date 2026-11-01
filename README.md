@@ -15,7 +15,6 @@
 agent-weekly/
 ├── README.md      # 本文件：目录 + 投稿指引
 ├── docs/          # 定稿，一期一文件：issue-N.md
-└── inbox/         # 素材库（剪藏：事实 + 出处 + 日期）
 ```
 
 
