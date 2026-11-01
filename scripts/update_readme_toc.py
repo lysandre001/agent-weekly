@@ -40,7 +40,10 @@ def main():
             current_ym = ym
             lines += [f"**{ym}**", ""]
         suffix = f"（{date}）" if date else ""
-        lines.append(f"- 第 {n} 期：[{title}](docs/issue-{n}.md){suffix}")
+        en = ""
+        if (DOCS.parent / "docs-en" / f"issue-{n}.md").exists():
+            en = f" · [EN](docs-en/issue-{n}.md)"
+        lines.append(f"- 第 {n} 期：[{title}](docs/issue-{n}.md){suffix}{en}")
     toc = "\n".join(lines) if lines else "*尚无发表期数。*"
 
     readme = README.read_text(encoding="utf-8")
